@@ -1,0 +1,219 @@
+/* CSS Reset */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../Fonts/Pacifico/Pacifico-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Lobster';
+    src: url('../Fonts/Lobster/Lobster-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Kalam';
+    src: url('../Fonts/Kalam/Kalam-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Shadows Into Light';
+    src: url('../Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Tektur';
+    src: url('../Fonts/Tektur/static/Tektur-Regular.ttf');
+  }
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: contents;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #f1c40f; /* Change this to your desired hover color */
+  }
+  
+  .nav-links li a.active {
+    color: #f1c40f; /* Change this to your desired active color */
+  }
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  
+    .active {
+      display: flex;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
+
+  .c{
+    text-align: center;
+  }
+  .b{
+    background-color: grey;
+    display: flex;
+    padding: 5rem 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .heading{
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+    color: deeppink;
+  }
+  .bhead{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+    color: aqua;
+  }
+  .bcont{
+    font-family: 'Tektur', cursive;
+    font-size: 2rem;
+    color: blanchedalmond;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+  }
+  .hero {
+    background-size: cover;
+    background: url(../Images/student-g45544fec7_1920.jpg) fixed no-repeat;
+    background-position-x: center;
+    background-color: #f1c40f;
+    padding: 20rem 0;
+    text-align: center;
+    color: #333;
+  }
+  .heading{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: deeppink;
+  }
+  .quotation{
+    font-size: 1.8rem;
+    font-family: 'Lobster', cursive;
+    color: crimson;
+  }
+  .q{
+    color: cadetblue;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5rem;
+  }
+  #Mec{
+    background: url('../Images/Mechanical\ Computers.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #Vac{
+    background: url('../Images/Vacuum\ Tube.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #Tra{
+    background: url('../Images/Transistors.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #IC{
+    background: url('../Images//Integrated\ Circuits.jpeg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #Mic{
+    background: url('../Images/Microprocessors\ and\ Personal\ Computers.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #GUI{
+    background: url('../Images/GUI.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #Mob{
+    background: url('../Images/hands-g3bf5f25c3_1920.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  #AI{
+    background: url('../Images/Artificial\ Intelligence.jpg') fixed no-repeat center;
+    background-size: cover;
+  }
+  @media screen and (max-width: 370) {
+    .bhead{
+      font-size: 3.5rem;
+    }
+  }

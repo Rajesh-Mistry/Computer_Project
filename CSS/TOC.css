@@ -1,0 +1,42 @@
+.hero{
+    background: url('../Images/TOC1.jpg') fixed;
+    background-size: cover;
+}
+.heading{
+    color: lime;
+}
+.quotation{
+    color: gold ;
+}
+#TOC2{
+    background: url('../Images/TOC2.jpg') fixed;
+    background-size: cover;
+}
+#TOC3{
+    background: url('../Images/TOC3.jpg') fixed;
+    background-size: cover;
+}
+#TOC4{
+    background: url('../Images/TOC4.jpg') fixed;
+    background-size: cover;
+}
+#TOC5{
+    background: url('../Images/TOC5.webp') fixed;
+    background-size: cover;
+}
+#TOC6{
+    background: url('../Images/TOC6.jpg') fixed;
+    background-size: cover;
+}
+#TOC7{
+    background: url('../Images/TOC7.jpeg') fixed;
+    background-size: cover;
+}
+#TOC8{
+    background: url('../Images/TOC8.jpeg') fixed;
+    background-size: cover;
+}
+#TOC9{
+    background: url('../Images/TOC9.jpg') fixed;
+    background-size: cover;
+}

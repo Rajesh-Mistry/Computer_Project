@@ -1,0 +1,31 @@
+.hero{
+    background: url('../Images/code-gf9401dcf6_1920.jpg') fixed no-repeat;
+}
+.bcontx{
+    /* color: darkblue ; */
+    font-family: 'Tektur', cursive;
+    font-size: 2rem;
+}
+#Pro{
+    background: url('../Images/Pro.avif') fixed no-repeat;
+    background-size: cover;
+}
+#Cod{
+    background: url('../Images/Coding.jpg') fixed no-repeat;
+    background-size: cover;
+}
+#AppDev{
+    background: url('../Images/AppDev.jpg') fixed no-repeat;
+    background-size: cover;
+    color: azure;
+}
+#WebDev{
+    background: url('../Images/WebDev.jpg') fixed no-repeat;
+    background-size: cover;
+    color: azure;
+}
+#SoftDev{
+    background: url('../Images/SoftDev.jpg') fixed no-repeat;
+    background-size: cover;
+    color: azure;
+}

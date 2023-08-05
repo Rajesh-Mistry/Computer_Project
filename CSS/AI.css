@@ -1,0 +1,23 @@
+.hero{
+    background: url('../Images/AI.jpg') fixed no-repeat center;
+    background-size: cover;
+}
+.b{
+    color: azure;
+}
+.q{
+    color: chartreuse;
+}
+#ML{
+    background: url('../Images/ML.png') fixed center;
+    background-size: cover;
+}
+#AAI{
+    background: url('../Images/AI2.jpg') fixed center;
+    background-size: cover;
+}
+#JAI{
+    background: url('../Images/AI3.jpg') fixed center;
+    background-size: cover;
+
+}
