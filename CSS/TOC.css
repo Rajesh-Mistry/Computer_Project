@@ -1,5 +1,5 @@
 .hero{
-    background: url('../Images/TOC1.jpg') fixed;
+    background: url('../Images/TOC1.jpg') fixed center;
     background-size: cover;
 }
 .heading{
@@ -11,32 +11,41 @@
 #TOC2{
     background: url('../Images/TOC2.jpg') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC3{
     background: url('../Images/TOC3.jpg') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC4{
     background: url('../Images/TOC4.jpg') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC5{
     background: url('../Images/TOC5.webp') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC6{
     background: url('../Images/TOC6.jpg') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC7{
     background: url('../Images/TOC7.jpeg') fixed;
     background-size: cover;
+    color: red;
+    color: red;
 }
 #TOC8{
     background: url('../Images/TOC8.jpeg') fixed;
     background-size: cover;
+    color: red;
 }
 #TOC9{
     background: url('../Images/TOC9.jpg') fixed;
     background-size: cover;
+    color: red;
 }

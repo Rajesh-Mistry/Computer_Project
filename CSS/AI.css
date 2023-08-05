@@ -8,6 +8,9 @@
 .q{
     color: chartreuse;
 }
+.quotation{
+    color: crimson;
+}
 #ML{
     background: url('../Images/ML.png') fixed center;
     background-size: cover;
@@ -19,5 +22,5 @@
 #JAI{
     background: url('../Images/AI3.jpg') fixed center;
     background-size: cover;
-
+    color: red;
 }

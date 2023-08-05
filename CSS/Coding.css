@@ -1,31 +1,36 @@
 .hero{
-    background: url('../Images/code-gf9401dcf6_1920.jpg') fixed no-repeat;
+    background: url('../Images/code-gf9401dcf6_1920.jpg') fixed no-repeat center;
 }
 .bcontx{
     /* color: darkblue ; */
     font-family: 'Tektur', cursive;
     font-size: 2rem;
 }
+.quotation{
+    color: hotpink;
+}
 #Pro{
-    background: url('../Images/Pro.avif') fixed no-repeat;
+    background: url('../Images/Pro.png') fixed no-repeat;
     background-size: cover;
+    color: red;
 }
 #Cod{
     background: url('../Images/Coding.jpg') fixed no-repeat;
     background-size: cover;
+    color: red;
 }
 #AppDev{
     background: url('../Images/AppDev.jpg') fixed no-repeat;
     background-size: cover;
-    color: azure;
+    color: red;
 }
 #WebDev{
     background: url('../Images/WebDev.jpg') fixed no-repeat;
     background-size: cover;
-    color: azure;
+    color: red;
 }
 #SoftDev{
     background: url('../Images/SoftDev.jpg') fixed no-repeat;
     background-size: cover;
-    color: azure;
+    color: red;
 }

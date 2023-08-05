@@ -19,112 +19,6 @@
     font-family: 'Tektur';
     src: url('../Fonts/Tektur/static/Tektur-Regular.ttf');
   }
-  body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: contents;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-  }
-  
-  .logo img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links li a:hover {
-    color: #f1c40f; /* Change this to your desired hover color */
-  }
-  
-  .nav-links li a.active {
-    color: #f1c40f; /* Change this to your desired active color */
-  }
-  
-  .hamburger-menu {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      z-index: 1;
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-    }
-  
-    .active {
-      display: flex;
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-    }
-  
-    .nav-links li {
-      margin-right: 0;
-      margin-bottom: 15px;
-    }
-  
-    .hamburger-menu {
-      display: block;
-    }
-  }
-
   .c{
     text-align: center;
   }
@@ -148,7 +42,7 @@
   .bcont{
     font-family: 'Tektur', cursive;
     font-size: 2rem;
-    color: blanchedalmond;
+    color: red;
   }
   footer{
     display: flex;
