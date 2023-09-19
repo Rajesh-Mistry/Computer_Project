@@ -9,7 +9,7 @@
     color: gold ;
 }
 #TOC2{
-    background: url('../Images/TOC2.jpg') fixed;
+    background: url('../Images/TOC2.jpeg') fixed;
     background-size: cover;
     color: red;
 }
@@ -24,9 +24,9 @@
     color: red;
 }
 #TOC5{
-    background: url('../Images/TOC5.webp') fixed;
+    background: url('../Images/TOC5.jpeg') fixed;
     background-size: cover;
-    color: red;
+    color: aquamarine;
 }
 #TOC6{
     background: url('../Images/TOC6.jpg') fixed;
@@ -36,13 +36,12 @@
 #TOC7{
     background: url('../Images/TOC7.jpeg') fixed;
     background-size: cover;
-    color: red;
-    color: red;
+    color: hotpink;
 }
 #TOC8{
     background: url('../Images/TOC8.jpeg') fixed;
     background-size: cover;
-    color: red;
+    color: crimson;
 }
 #TOC9{
     background: url('../Images/TOC9.jpg') fixed;

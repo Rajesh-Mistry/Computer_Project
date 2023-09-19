@@ -77,10 +77,12 @@
   #Mec{
     background: url('../Images/Mechanical\ Computers.jpg') fixed no-repeat center;
     background-size: cover;
+    color: rgb(0, 47, 255);
   }
   #Vac{
     background: url('../Images/Vacuum\ Tube.jpg') fixed no-repeat center;
     background-size: cover;
+    color: white;
   }
   #Tra{
     background: url('../Images/Transistors.jpg') fixed no-repeat center;
@@ -93,6 +95,7 @@
   #Mic{
     background: url('../Images/Microprocessors\ and\ Personal\ Computers.jpg') fixed no-repeat center;
     background-size: cover;
+    color: white;
   }
   #GUI{
     background: url('../Images/GUI.jpg') fixed no-repeat center;
@@ -105,6 +108,7 @@
   #AI{
     background: url('../Images/Artificial\ Intelligence.jpg') fixed no-repeat center;
     background-size: cover;
+    color: white;
   }
   @media screen and (max-width: 370) {
     .bhead{
